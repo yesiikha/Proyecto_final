@@ -3,7 +3,7 @@ describe('Diligeniar formulario', () => {
   it('Completa el formulario', () => {
     cy.visit('https://demoqa.com/automation-practice-form')
 
-    //LLena campos del form
+    //LLena campos del formulario
     cy.get('#firstName').type('Yessica Viviana');
     cy.get('#lastName').type('León López');
     cy.get('#userEmail').type('yessicaleon@gmail.com');
