@@ -32,9 +32,6 @@ describe('Diligenciar una reclamacion de empleados', () => {
     //Hace LOGOUT
     cy.get('.oxd-userdropdown-tab').click();
     cy.get(':nth-child(4) > .oxd-userdropdown-link').click();
-
-  
   })
-
-
+  
 })
